@@ -39,6 +39,7 @@ footer a {
 footer a:hover {
   font-weight: bolder;
   font-size: larger;
+  color: white;
 }
 
 article h1 {
@@ -99,6 +100,24 @@ div article section {
 .fadeOutAnimation {
   opacity: 0;
   visibility: hidden;
+}
+
+.gallery ul li {
+  vertical-align: top;
+  display: inline-block;
+  width: 155px;
+  height: 150px;
+  padding-top: 15px;
+}
+.gallery ul a {
+  display: block;
+  width: 128px;
+}
+.gallery ul a:hover {
+  zoom: 110%;
+  border: 4px solid aqua;
+  border-radius: 8px;
+  transition: all 0.25s ease;
 }
 
 /*# sourceMappingURL=style.css.map */
