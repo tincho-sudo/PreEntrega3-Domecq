@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+.backgr {
+  background-image: url("../resources/homebg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Acme", sans-serif;
+}
+
 .header__li {
   padding: 30px 0px;
   list-style: none;
@@ -14,6 +22,66 @@
 .header__li a:hover {
   font-weight: bolder;
   font-size: larger;
+}
+
+footer {
+  background-color: #212529;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+footer a {
+  text-decoration: none;
+  transition: font-size 0.2s;
+  color: white;
+}
+footer a:hover {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+article h1 {
+  display: inline-block;
+  width: auto;
+  color: #fff;
+}
+article h1 span {
+  display: block;
+  width: auto;
+  color: #fff;
+}
+
+.opacityBg {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+div {
+  text-align: center;
+  display: block;
+}
+div article {
+  color: white;
+  font-size: large;
+}
+div article section {
+  padding: 15px;
+}
+
+.separator {
+  margin-top: 85px;
+}
+
+.format--center {
+  text-align: center;
+  display: block;
+}
+
+@media all and (max-width: 600px) {
+  iframe {
+    width: 300px;
+    height: 175px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
