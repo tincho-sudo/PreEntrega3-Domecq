@@ -1,10 +1,13 @@
+@use "vars";
+
+
 * {
   margin: 0;
   padding: 0;
 }
 
 .separator {
-  margin-top: 85px;
+  margin-top: vars.$separator;
 }
 
 .format--center {
@@ -27,5 +30,5 @@
 }
 
 .opacityBg {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, vars.$opSelector);;
 }

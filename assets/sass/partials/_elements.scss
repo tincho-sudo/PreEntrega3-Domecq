@@ -1,5 +1,7 @@
+@use "vars";
+
 footer {
-  background-color: #212529;
+  background-color: vars.$backgrColor;
   position: fixed;
   bottom: 0;
   text-align: center;
@@ -7,11 +9,11 @@ footer {
   a {
     text-decoration: none;
     transition: font-size 0.2s;
-    color: white;
+    color: vars.$fontColor;
     &:hover {
       font-weight: bolder;
       font-size: larger;
-      color: white;
+      color: vars.$fontColor;
     }
   }
 }
@@ -19,12 +21,12 @@ footer {
 article h1 {
   display: inline-block;
   width: auto;
-  color: #fff;
+  color: vars.$fontColor;
 
   span {
     display: block;
     width: auto;
-    color: #fff;
+    color: vars.$fontColor;
   }
 }
 
@@ -33,7 +35,7 @@ div {
   display: block;
 
   article {
-    color: white;
+    color: vars.$fontColor;
     font-size: large;
 
     section {
@@ -42,14 +44,14 @@ div {
   }
   button {
     width: auto;
-    border: 4px solid #194641 !important;
+    border: 4px solid vars.$btnBorder !important;
     border-radius: 8px;
-    color: #fff;
-    background-color: #21726a !important;
+    color: vars.$fontColor;
+    background-color: vars.$btnColor !important;
     font-size: large;
     &:hover {
-      background-color: #00ad9c !important;
-      border-color: #358f84 !important;
+      background-color: vars.$btnColorHover !important;
+      border-color: vars.$btnBorderHover !important;
       transition: all 0.5s ease;
       font-size: large;
     }
@@ -57,7 +59,7 @@ div {
 }
 
 .backgr {
-  background-image: url("../resources/homebg.png");
+  background-image: url(vars.$backgr);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

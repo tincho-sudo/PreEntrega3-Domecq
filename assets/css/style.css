@@ -19,12 +19,12 @@ footer a:hover {
 article h1 {
   display: inline-block;
   width: auto;
-  color: #fff;
+  color: white;
 }
 article h1 span {
   display: block;
   width: auto;
-  color: #fff;
+  color: white;
 }
 
 div {
@@ -42,7 +42,7 @@ div button {
   width: auto;
   border: 4px solid #194641 !important;
   border-radius: 8px;
-  color: #fff;
+  color: white;
   background-color: #21726a !important;
   font-size: large;
 }
