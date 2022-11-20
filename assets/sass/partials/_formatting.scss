@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.separator {
+  margin-top: 85px;
+}
+
+.format--center {
+  text-align: center;
+  display: block;
+}
+
+.header__li {
+  padding: 30px 0px;
+  list-style: none;
+
+  a {
+    text-decoration: none;
+    transition: font-size 0.2s;
+    &:hover {
+      font-weight: bolder;
+      font-size: larger;
+    }
+  }
+}
+
+.opacityBg {
+  background-color: rgba(0, 0, 0, 0.3);
+}
