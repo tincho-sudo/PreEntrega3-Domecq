@@ -1,15 +1,16 @@
+@use "vars";
+
 .gallery {
   ul {
     li {
       vertical-align: top;
       display: inline-block;
-      width: 155px;
-      height: 150px;
+      @include vars.size(155px,150px);
       padding-top: 15px;
 
       a {
         display: block;
-        width: 128px;
+        @include vars.size(128px,auto);
         &:hover {
           zoom: 110%;
           border: 4px solid aqua;

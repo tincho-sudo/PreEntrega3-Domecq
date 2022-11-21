@@ -1,8 +1,9 @@
+@use "vars";
+
 @media screen and (max-width: 995px) {
 }
 @media all and (max-width: 600px) {
   iframe {
-    width: 300px;
-    height: 175px;
+    @include vars.size(300px, 175px);
   }
 }

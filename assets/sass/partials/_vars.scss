@@ -19,3 +19,9 @@ $backgr: "../resources/homebg.png";
 // separator is margin top
 
 $separator: 85px;
+
+// SET ELEMENTS WIDTH AND HEIGHT
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
