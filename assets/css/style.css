@@ -99,11 +99,11 @@ div button:hover {
   height: 150px;
   padding-top: 15px;
 }
-.gallery ul a {
+.gallery ul li a {
   display: block;
   width: 128px;
 }
-.gallery ul a:hover {
+.gallery ul li a:hover {
   zoom: 110%;
   border: 4px solid aqua;
   border-radius: 8px;

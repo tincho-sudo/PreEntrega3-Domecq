@@ -130,7 +130,34 @@
             </div>
           </div>
           <div class="col-auto">
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+
+            <button type="button" class="btn btn-primary" id="liveToastBtn">
+              Show live toast
+            </button>
+
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div
+                id="liveToast"
+                class="toast"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="toast-header">
+                  <img src="../resources/toast-logo.png" class="rounded me-2" alt="..." />
+                  <strong class="me-auto">Message</strong>
+                  <small>0s ago</small>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="toast-body">Hey, Thanks for your message!.</div>
+              </div>
+            </div>
           </div>
         </form>
       </div>
@@ -147,5 +174,7 @@
     ></script>
     <!-- Script Spinner -->
     <script src="../scripts/main.js"></script>
+    <!-- Script Toast -->
+    <script src="../scripts/toast.js"></script>
   </body>
 </html>
