@@ -1,4 +1,4 @@
-# PreEntrega3-Domecq
+# Entrega Final - Domecq
 
 <ul>
   <li>En el caso de mi comision, no fue necesario implementar node a excepcion del sass, asi que la entrega no contiene .json ni node_modules.</li>
